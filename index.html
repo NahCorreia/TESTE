@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Online - Página Inicial</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <input type="text" id="searchInput" placeholder="Pesquise por produtos...">
+            <button onclick="buscarProduto()">Pesquisar</button>
+            <button class="cart-button" onclick="verCarrinho()">Carrinho</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="logo-section">
+            <img src="logo.png" alt="Logo da Loja" class="logo">
+        </section>
+
+        <section class="info">
+            <p><strong>Horário de Funcionamento:</strong> Seg - Sex: 9h às 18h, Sáb: 10h às 14h</p>
+            <p><strong>Local:</strong> Rua Exemplo, 123 - Cidade, Estado</p>
+        </section>
+
+        <section class="button-section">
+            <button onclick="irParaProdutos()">Ver Produtos</button>
+        </section>
+    </main>
+</body>
+</html>
