@@ -59,7 +59,7 @@ header {
 }
 
 button {
-    background-color: #FFC0C7;
+    background-color: #EB8D96;
     color: #fff;
     border: none;
     padding: 0.5em 1em;
@@ -68,7 +68,7 @@ button {
 }
 
 button:hover {
-    background-color: #FFC0C7;
+    background-color: #EB8D96;
 }
 
 /* Estilo dos Produtos */
@@ -84,7 +84,7 @@ button:hover {
     background-color: #fff;
     padding: 1em;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(255, 59, 59, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
