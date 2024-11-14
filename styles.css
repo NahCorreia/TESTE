@@ -106,7 +106,7 @@ button:hover {
 .slideshow {
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 400px;
     overflow: hidden;
 }
 
