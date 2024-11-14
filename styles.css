@@ -39,7 +39,7 @@ header {
 /* Seção de Logo e Informações */
 .logo-section {
     text-align: center;
-    margin-top: 0.1em;
+    margin-top: 10px;
     position: relative;
     top: 0;
     
@@ -108,7 +108,6 @@ button:hover {
     width: 100%;
     height: 400px;
     overflow: hidden;
-    margin-top: 0.1em;
 }
 
 .slide {
