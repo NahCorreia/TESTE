@@ -106,14 +106,14 @@ button:hover {
 .slideshow {
     position: relative;
     width: 100%;
-    height: 400px;
+    height: 100px;
     overflow: hidden;
 }
 
 .slide {
     width: 100%;
     height: 50%;
-    position: relative;
+    position: absolute;
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
